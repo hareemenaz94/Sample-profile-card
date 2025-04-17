@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile-card {
+    width: 350px;
+    height: 500px;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box1 {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(119, 119, 231);
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box2 {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(242, 242, 247);
+}
+
+.profile-image {
+    width: 160px;
+    height: 250px;
+
+
+}
+
+.imagestyle {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid blue;
+    border-radius: 45%;
+    position: relative;
+    top: 110px;
+}
+
+.name {
+    text-align: center;
+    position: relative;
+    top: 65px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.name:hover {
+    transform: translateY(-5px);
+}
+
+.para2 {
+    text-align: center;
+    position: relative;
+    top: 65px;
+    font-size: 15px;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.para2:hover {
+    transform: translateY(-5px);
+}
+
+.icons {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 80px;
+
+}
+
+.facebook-icon {
+    color: rgb(57, 57, 216);
+    font-size: 30px;
+    padding-right: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.facebook-icon:hover {
+    opacity: 0.4;
+    transform: translateY(-3px);
+}
+
+.twitter-icon {
+    color: rgb(28, 28, 31);
+    font-size: 30px;
+    padding-right: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.twitter-icon:hover {
+    opacity: 0.4;
+    transform: translateY(-3px);
+}
+
+.instagram-icon {
+    color: rgb(216, 57, 131);
+    font-size: 30px;
+    padding-right: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.instagram-icon:hover {
+    opacity: 0.4;
+    transform: translateY(-3px);
+}
+
+.youtube-icon {
+    color: rgb(216, 57, 57);
+    font-size: 30px;
+    padding-right: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.youtube-icon:hover {
+    opacity: 0.4;
+    transform: translateY(-3px);
+}
+
+.btn1 {
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(128, 103, 241);
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.btn1:hover {
+    color: white;
+
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.buttons {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+.btn2 {
+    width: 130px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(128, 103, 241);
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn2:hover {
+    color: white;
+
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.btns {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+   
+    .profile-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .box1,
+    .box2 {
+        width: 100%;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: auto;
+    }
+
+    .imagestyle {
+        top: auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .name {
+        top: auto;
+        margin-top: 1px;
+    }
+
+    .para2 {
+        top: auto;
+        margin-top: 10px;
+    }
+
+    .icons {
+        top: auto;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .buttons {
+        top: auto;
+        margin-top: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btns {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn1,
+    .btn2 {
+        width: 100%;
+        max-width: 250px;
+    }
+}
